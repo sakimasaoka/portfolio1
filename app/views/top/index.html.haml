@@ -1,0 +1,155 @@
+%head
+.indexbody
+  .indexbody__main
+    %p.title
+      Portfolio
+    %p.name  
+      Saki M
+  .indexbody__menuber
+    %ul
+      = link_to '#sec1', class: "menulink" do
+        ABOUT
+    %ul
+      = link_to '#sec2', class: "menulink" do
+        WORK
+    %ul
+      = link_to '#sec3', class: "menulink" do
+        MAIL
+
+
+.about{id:'sec1'}
+  .titlefont
+    ABOUT
+    = image_tag '106.png', alt: '', height: '100', width: '100', class: ''  
+    .titlefont__line  
+      = image_tag '1.png', alt: '', height: '50', width: '300', class: 'line'
+  .frofile
+    .frofile__pic
+      = image_tag 'IkR8cB7f_400x400.jpg',class:"image"
+    .frofile__data
+      愛猫をこよなく愛する
+      %br
+      名前：saki m
+      %br
+      出身：兵庫 現在大阪在住
+      %br
+      趣味：映画鑑賞
+      %br
+      スキル：HTML,CSS,Haml,SCSS,JQuery,javascript,Ruby・Ruby on Rails
+      ・SQL・Git・ GitHub・AWS等の技術を用いたアプリケーション開発
+      %br 
+      動画編集: kineMaster愛用
+      %br
+      イラスト製作: アイビスペイントなど 
+      %br  
+      = link_to "https://twitter.com/ndoqzBawWoxeL49", class: "twiter_btn" do
+        = icon('fab', 'twitter')  
+      = link_to "https://github.com/sakimasaoka", class: "github_btn" do
+        = icon('fab', 'github')  
+
+
+.works{id:'sec2'}
+  .titlefont
+    WORK 
+    = image_tag '106.png', alt: '', height: '100', width: '100', class: ''    
+    .titlefont__line  
+      = image_tag '1.png', alt: '', height: '50', width: '300', class: 'line'   
+  .workslist
+    .worksmenu
+      .title
+        Portfolio
+      .views
+        = link_to '*', class: "point" do
+          = image_tag 'Portfolio.png',class:"point"
+          .worksweb
+            %p
+              サイトに飛ぶ
+              = icon('fas','paw')
+      .comment
+        = icon('fa', 'laptop')
+        個人開発作品
+        %br
+        haml,sass,JQuery,GitHub,AWS開発
+        %br
+        制作日数：５日間
+        %br
+        シンプルで綺麗なデザインになるように作成致しました
+        %br
+        右上のメニューは雲を意識して浮き上がって見える様に実装しました
+    
+    .worksmenu
+      .views
+        = link_to 'http://54.65.138.229/', class: "point1" do
+          = image_tag 'Fmarket.png',class:"point1"
+          .worksweb1
+            %p
+              サイトに飛ぶ
+              = icon('fas','paw')
+      .title
+        freemarket
+      .comment
+        = icon('fa', 'laptop')
+        チーム開発作品
+        %br
+        ＊user：65_mercari_d
+        %br
+        ＊pass：65d
+        %br 
+        %br       
+        = icon('fa', 'user-edit')
+        担当箇所
+        %br
+        会員登録、商品詳細、購入画面ビュー
+        %br
+        TopページJS
+        %br
+        商品詳細サーバーサイド
+    .worksmenu
+      .views
+        = image_tag 'cross.png',class:"point2"
+      .title
+        * cross stitch *
+      .comment
+        = icon('fa', 'laptop')
+        個人開発作品
+        %br
+        HTML,FC２開発
+        %br
+        高校生の頃に趣味のイラストを公開する場として運営
+        %br
+        %br
+        %p.heisa
+          現在閉鎖中
+
+
+.mail{id:'sec3'}
+  .titlefont
+    MAIL
+    = image_tag '106.png', alt: '', height: '100', width: '100', class: ''    
+    .titlefont__line  
+      = image_tag '1.png', alt: '', height: '50', width: '300', class: 'line' 
+  .mailform
+    %form{:action => "https://ssl.form-mailer.jp/fm/service/Forms/confirm", :enctype => "multipart/form-data", :method => "post", :name => "form1"}
+      %input{:name => "key", :type => "hidden", :value => "9bdf7ac7651618"}/
+      *は必須項目です
+      / name
+      %p 名前*
+      %p
+        姓
+        %input{:name => "field_5601951_sei", :style => "width:100px;", :type => "text"}/
+        名
+        %input{:name => "field_5601951_mei", :style => "width:100px;", :type => "text"}/
+      / text:mail
+      %p メールアドレス*
+      %p
+        %input{:name => "field_5601952", :size => "30", :type => "text"}/
+      / textarea
+      %p メッセージ*
+      %p
+        %textarea{:cols => "30", :name => "field_5601958", :rows => "5"}
+      / charset
+      / charset
+      / paypal no confirm alert
+      / paypal no confirm alert
+      %p
+        %input{:name => "submit", :type => "submit", :value => "確認画面へ",id: "submit"}/

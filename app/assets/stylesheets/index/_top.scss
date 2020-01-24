@@ -1,0 +1,246 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.indexbody{
+  background-image: url("1125167.jpg");
+  background-position:top;  
+  width: 100%;
+  height: 100vh;
+  background-size:cover;
+
+
+  &__menuber{
+    width:100%;
+    display: flex;
+    color: black;
+    text-shadow: 1px 2px 3px #e09595;
+    justify-content:flex-end;
+    top:0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+  }
+
+
+    .menulink{
+      color: #000;
+      text-decoration: none;
+      width: 100px;
+      height: 40px;
+      display: inline-block; 
+      background-color:white;
+      border-radius: 0 0 50% 80%;
+      box-shadow: 0 5px 5px #808080;
+    }
+
+
+    .menulink:hover{
+      text-shadow: 1px 2px 3px rgb(7, 82, 107);
+      color:#0033ff;
+      height: 50px;
+    }
+  
+  
+  &__main{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top:100px;
+    text-align:center;
+    padding-top: 400px;
+    text-shadow: 
+		0 0 0.05em #F06292,
+		0 0 0.10em #F06292,
+		0 0 0.15em #F06292,
+		0 0 0.30em #F06292;
+  filter: saturate(80%);
+
+
+    .name{
+    margin-top: 120px;
+    }
+  }  
+  
+}
+  .about{
+  width: 100%;
+  height: 650px;
+  background-image: url("bgground.png");
+
+
+  .frofile{
+    display:flex;
+    margin: 0 auto;
+    width: 480px;
+
+
+    .image{
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      margin-right: 10px;
+    }
+
+    &__data{
+      font-size:14px;
+    }
+
+    .twiter_btn,.github_btn{
+      color:white;
+      text-decoration: none;
+      font-size:40px;
+      text-align: center;
+      border-radius: 3px;    
+    }
+    .twiter_btn{
+      background-color:#00bfff;
+      margin-right:-15px;
+    }
+
+    .github_btn{
+      background: darkorchid;
+    }
+
+  }
+}
+
+.twiter_btn:hover,.github_btn:hover{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-0.4875em);
+}
+
+  .titlefont{
+  text-align: center;
+  margin: 0 auto;
+  font-size:50px;
+  text-shadow: 1px 2px 3px #808080;
+  margin-bottom: 60px;
+  font-family: cursive;
+  z-index: 2;
+  
+    &__line{
+      margin: 0 auto;
+      width: 350px;
+      height: 60px;
+      margin-top:-70px;
+      z-index: 0;
+      opacity: 0.6;
+    }
+  }
+
+  .titlefont::first-letter{
+      font-size: 2em;
+      color: rgb(118, 180, 250);
+    
+  }
+
+.works{
+    width: 100%;
+    height: 100vh;
+    background-image: url("bgground.png");
+  
+  .workslist{
+    display:flex;
+    width: 850px;
+    margin:0 auto;
+
+  }
+
+    .worksmenu{
+      width: 250px;
+      height: 300px;
+      border-style: solid; border-color: rgb(206, 227, 250);
+      color: #454545;
+      margin-right:20px;
+      border-radius: 4%;
+      box-shadow: 1px 2px 3px #808080;
+      position: relative;
+
+      .worksmenu,.title{
+        position: absolute;
+        display: inline-block;
+        top: -2px;
+        left: -2px;
+        padding: 0 9px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 17px;
+        background: rgb(139, 207, 246);
+        color: #ffffff;
+        font-weight: bold;
+        border-top-left-radius: 6px;
+        z-index: 1;
+
+      }
+
+      .point,.point1,.point2{
+        width: 250px;
+        height: 130px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        z-index: 0;
+        position: relative;
+      }
+
+      .worksweb,.worksweb1{
+        background-color: black;
+        color: white;
+        width: 250px;
+        height: 130px;
+        z-index: 10;
+        position:absolute;
+        top:-115px;
+        opacity: 0.5;
+        text-align: center;
+        display:none;
+        border-top-right-radius: 6px;
+
+        p{
+          margin-top: 50px;
+        }
+      }
+      .heisa{
+        font-weight: bold;
+        border-bottom:double;
+        width: 100px;
+        color:red;
+      }
+
+        .comment{
+        font-size:14px;
+        }
+    }
+
+    .point:hover{
+    background:black;
+    }
+
+}
+
+.mail{
+  background-image: url("1125167.jpg");
+  width: 100%;
+  height: 105vh;
+  background-position:center bottom;                     /* 画像の表示位置を指定 */
+  background-size:cover;
+
+
+    .mailform{
+      width: 290px;
+      margin: 0 auto;
+      color:rgb(133, 148, 165);
+      font-size:15px;
+    }
+
+    #submit{
+      margin:0 auto;
+      color:rgb(133, 148, 165);
+      height: 100px;
+      text-align: center;
+      width: 260px;
+      font-size: 15px;
+    }
+
+}

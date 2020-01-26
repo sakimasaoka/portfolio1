@@ -1,8 +1,9 @@
 $(document).on('turbolinks:load', function() {
-  $('.point').mouseover(function(){  
+  $('.worksmenu').mouseover(function(){  
+    console.log();
     $('.worksweb').show()
   });
-  $('.point').mouseout(function(){  
+  $('.worksmenu').mouseout(function(){  
     $('.worksweb').hide();
   });
   $('.point1').mouseover(function(){  

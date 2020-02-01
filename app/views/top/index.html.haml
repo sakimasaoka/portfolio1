@@ -55,55 +55,55 @@
     .titlefont__line  
       = image_tag '1.png', alt: '', height: '50', width: '300', class: 'line'   
   .workslist
-    .worksmenu
-      .title
-        Portfolio
-      .views
-        = link_to 'http://3.115.36.231/', class: "point" do
+    = link_to 'https://rikunyan11.herokuapp.com/', class: "point" do
+      .worksmenu
+        .title
+          Portfolio
+        .views
           = image_tag 'Portfolio.png',class:"point"
           .worksweb
             %p
               サイトに飛ぶ
               = icon('fas','paw')
-      .comment
-        = icon('fa', 'laptop')
-        個人開発作品
-        %br
-        haml,sass,JQuery,GitHub,AWS開発
-        %br
-        制作日数：５日間
-        %br
-        シンプルで綺麗なデザインになるように作成致しました
-        %br
-        右上のメニューは雲を意識して浮き上がって見える様に実装しました
+        .comment
+          = icon('fa', 'laptop')
+          個人開発作品
+          %br
+          haml,sass,JQuery,GitHub,heroku開発
+          %br
+          制作日数：５日間
+          %br
+          シンプルで綺麗なデザインになるように作成致しました
+          %br
+          右上のメニューは雲を意識して浮き上がって見える様に実装しました
     
-    .worksmenu
-      .views
-        = link_to 'http://54.65.138.229/', class: "point1" do
+    = link_to 'http://54.65.138.229/', class: "point1" do
+      .worksmenu
+        .title
+          freemarket
+        .views
           = image_tag 'Fmarket.png',class:"point1"
           .worksweb1
             %p
               サイトに飛ぶ
               = icon('fas','paw')
-      .title
-        freemarket
-      .comment
-        = icon('fa', 'laptop')
-        チーム開発作品
-        %br
-        ＊user：65_mercari_d
-        %br
-        ＊pass：65d
-        %br 
-        %br       
-        = icon('fa', 'user-edit')
-        担当箇所
-        %br
-        会員登録、商品詳細、購入画面ビュー
-        %br
-        TopページJS
-        %br
-        商品詳細サーバーサイド
+        .comment
+          = icon('fa', 'laptop')
+          チーム開発作品
+          %br
+          ＊user：65_mercari_d
+          %br
+          ＊pass：65d
+          %br 
+          %br       
+          = icon('fa', 'user-edit')
+          担当箇所
+          %br
+          会員登録、商品詳細、購入画面ビュー
+          %br
+          TopページJS
+          %br
+          商品詳細サーバーサイド
     .worksmenu
       .views
         = image_tag 'cross.png',class:"point2"

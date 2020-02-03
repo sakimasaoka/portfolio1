@@ -4,6 +4,16 @@
   display:flex;
 }
 
+p1{
+  margin-left:10px;
+  color:gray;
+}
+
+p2{
+  color:gray;
+  float: right;
+  margin-right: 10px;
+}
 .mainpicter{
   width: 100%;
   height: 450px;
@@ -31,3 +41,38 @@ p{
   box-shadow: 3px 3px 6px -2px #555,
   3px 3px 8px rgba(255,255,255,0.8) inset;
 }
+
+.line{
+  background-image: url(_l_extra24_10_s1024_extra24_10_0.png);
+  background-color: indianred;
+  width: 100%;
+  height: 50px;
+  transform: scale(1, -1);
+  margin-top:-4px;
+  z-index: 1;
+  background-size:cover;
+  opacity: 1;
+
+}
+
+.menu{
+  width: 100%;
+  height: 500px;
+  background-color: indianred;
+  display:flex;
+  padding-top:50px;
+  }
+
+  .kizi{
+    width: 800px;
+    height: 500px;
+    background-color: khaki;
+    margin-left: 10%;
+  }
+
+  .weter{
+    width: 300px;
+    height: 500px;
+    background-color: lemonchiffon;
+    margin-left:40px;
+  }

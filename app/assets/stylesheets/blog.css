@@ -57,7 +57,7 @@ p{
 
 .menu{
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-color: indianred;
   display:flex;
   padding-top:50px;
@@ -66,13 +66,64 @@ p{
   .kizi{
     width: 800px;
     height: 500px;
-    background-color: khaki;
+    background-color:white;
     margin-left: 10%;
+    border-radius: 10px;
+  }
+
+  .ichikizi{
+    width: 600px;
+    height: 300px;
+    margin: 40px auto;
+    background: #ffe4e1; 
+    box-shadow: #ffe4e1 0 0 10px 10px;
+    -webkit-box-shadow: #ffe4e1 0 0 10px 10px; 
+    -moz-box-shadow: #ffe4e1 0 0 10px 10px;
+    position: relative;
+  }
+
+  .ichikizi:before{
+    background-color: #ef858c;	/* 吹き出し背景色 */
+    border-radius: 5px;
+    color: #fff;	/* 吹き出し文字色 */
+    content: 'TITLE';
+    padding: 5px 20px;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+   }
+   .ichikizi:after{
+    border-top: 12px solid #ef858c;		/* 吹き出し三角部分の色 */
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 15px;
+   }
+
+  .kizipicter{
+    width: 600px;
+    height: 250px;
+    background-image: url(Cats_Sleep_Kittens_518962_1920x1080.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center; 
   }
 
   .weter{
     width: 300px;
     height: 500px;
-    background-color: lemonchiffon;
+    background-color: white;
     margin-left:40px;
+    margin-right: 10%;
+    border-radius: 10px;
+  }
+
+  .profilepicter{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin:20px auto;
   }

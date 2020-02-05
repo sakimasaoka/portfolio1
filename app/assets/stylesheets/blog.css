@@ -243,5 +243,30 @@ p3{
     box-shadow: 0px 0px 0px 5px #ffeaea;
     border: dashed 2px #ffc3c3;
     border-radius: 5%;
-    margin-right: 10px;
+    margin:20px 10px 20px 0;
+  }
+
+  .fa-twitter{
+    color:rgb(124, 194, 232);
+    padding:3px;
+  }
+
+  .fa-instagram{
+    color:rgb(232, 124, 158);
+    padding:3px;
+  }
+
+  .fa-youtube{
+    color:rgb(255, 6, 6);
+    padding:3px;
+  }
+
+  .fa-github-alt{
+    color:rgb(121, 42, 191);
+    padding:3px;
+  }
+
+  .twitter-timeline{
+    height: 150px;
+    overflow-y: scroll;
   }

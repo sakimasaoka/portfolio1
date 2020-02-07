@@ -55,6 +55,30 @@
     .titlefont__line  
       = image_tag '1.png', alt: '', height: '50', width: '300', class: 'line'   
   .workslist
+    
+    = link_to 'https://rikunyan11.herokuapp.com/blog', class: "point" do
+      .worksmenu
+        .title
+          Neko Blog
+        .views
+          = image_tag 'nekoblog.png',class:"point"
+          .worksweb
+            %p
+              サイトに飛ぶ
+              = icon('fas','paw')
+        .comment
+          = icon('fa', 'laptop')
+          個人開発作品
+          %br
+          HTML,CSS,GitHub,heroku開発
+          %br
+          制作日数：4日間
+          %br
+          レスポンシブ（スマホ対応）したビュー作成
+          %br
+          HTML作品を作りたかったので作成しました
+    
+    
     = link_to 'https://rikunyan11.herokuapp.com/', class: "point" do
       .worksmenu
         .title

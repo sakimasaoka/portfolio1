@@ -84,9 +84,9 @@ p2{
   }
 
   .ichikizi:before{
-    background-color: #ef858c;	/* 吹き出し背景色 */
+    background-color: #ef858c;
     border-radius: 5px;
-    color: #fff;	/* 吹き出し文字色 */
+    color: #fff;	
     content: '猫の賢い飼い方';
     font-weight: bold;
     padding: 5px 20px;
